@@ -11,6 +11,9 @@ add_definitions("-Wall -Wextra -pedantic")
 find_package(yaml-cpp)
 include_directories(${YAML_CPP_INCLUDE_DIR})
 
+message(STATUS ${YAML_CPP_INCLUDE_DIR})
+message(STATUS ${YAML_CPP_LIBRARIES})
+
 add_executable(${PROJECT_NAME} "src/main.cpp")
 
 target_link_libraries(${PROJECT_NAME} ${YAML_CPP_LIBRARIES})
