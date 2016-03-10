@@ -4,9 +4,10 @@ This repository was created to reproduce the issue [jbeder/yaml-cpp#362](https:/
 
 ## Steps to reproduce the bug
 
-```
-sudo pacman -Sy yaml-cpp
-git clone https://github.com/branoholy/yaml-sample.git
-cd yaml-sample && mkdir build && cd build
-cmake ..
+```bash
+$ sudo pacman -Sy yaml-cpp
+$ git clone https://github.com/branoholy/yaml-sample.git
+$ cd yaml-sample && mkdir build && cd build
+$ cmake ..
+$ make
 ```
