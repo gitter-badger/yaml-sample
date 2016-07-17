@@ -1,5 +1,7 @@
 # yaml-sample
 
+[![Join the chat at https://gitter.im/branoholy/yaml-sample](https://badges.gitter.im/branoholy/yaml-sample.svg)](https://gitter.im/branoholy/yaml-sample?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This repository was created to reproduce the issue [jbeder/yaml-cpp#362](https://github.com/jbeder/yaml-cpp/issues/362) with [jbeder/yaml-cpp](https://github.com/jbeder/yaml-cpp) in  [Arch Linux](https://www.archlinux.org/packages/community/x86_64/yaml-cpp).
 
 ### Steps to reproduce the bug
